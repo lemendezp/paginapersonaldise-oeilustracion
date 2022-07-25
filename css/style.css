@@ -1,0 +1,246 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding:0;
+	border-style: solid;
+	border-color: lightblue;
+	font-family:'Quicksand', sans-serif ;
+	:#6D2D61
+	src: url(https://fonts.google.com/specimen/Quicksand?query=qui#standard-styles);
+}
+
+.a .nav-link dropdown-toggle{
+	color:#6D2D61
+}
+.nav-item {
+	text-decoration: #6D2D61;
+	font-size: 35px;
+}
+.nav-link {
+	
+	font-size: 35px;
+	
+}
+
+.logo1{
+	height: 100vh;
+}
+.verde{
+	background-color: chartreuse;
+	height: 6rem;
+	
+}
+
+.morado{
+	background-color: purple;
+	height: 30rem;
+	
+
+}
+
+.naranja{
+	background-color: orange;
+	height: 35rem
+	
+}
+
+.rojo{
+	background-color: red;
+	height: 35rem
+	
+
+}
+.iconos{
+	
+	display: flex;
+	justify-content: space-around;
+
+
+
+}
+
+.rosado{
+	background-color: white;
+	border-style: solid;
+	border-color: white;
+	margin-top: 2vh;
+	display: flex;
+	justify-content: space-around;
+
+
+	
+}
+
+.amarillo{
+	background-color: yellow;
+	height: 70%
+
+}
+
+.gris1{
+	background-color: blue;
+	height: 70%
+
+	}
+
+.gris2{
+	background-color: gray;
+	height: 70%
+
+	}
+
+.gris3{
+	background-color: black;
+	height: 70%
+
+	}
+
+/*comienzo de consulta de mnedios*/
+
+@media only screen and (max-width: 600px){
+  .morado{
+	background-color: darkred;
+	height: 30rem;
+	
+  }
+  	.naranja{
+		background-color: gray;
+		height: 35rem
+	
+}
+
+
+}
+#uno{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    animation-delay: 2.5;
+    animation-duration: 2.5s ;
+
+}
+
+#dos{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    animation-delay: 2;
+    animation-duration: 2s ;
+}
+
+#tres{
+    height: 100%;
+    width: 100%;
+    position:  absolute;
+    z-index: 3;
+    animation-delay: 2.5;
+    animation-duration: 2.5s ;
+}
+
+#cuatro{
+    height: 40%;
+    width: 40%;
+    position:  relative;
+    z-index: 3;
+    animation-delay: 2.5;
+    animation-duration: 2.5s ;
+}
+
+#cinco{
+    height: 40%;
+    width: 40%;
+    position:  relative;
+    z-index: 3;
+    animation-delay: 2.5;
+    animation-duration: 2.5s ;
+}
+
+#seis{
+    height: 40%;
+    width: 40%;
+    position:  relative;
+    z-index: 3;
+    animation-delay: 2.5;
+    animation-duration: 2.5s ;
+}
+
+#siete{
+    height: 40%;
+    width: 40%;
+    position:  relative;
+    z-index: 3;
+    animation-delay: 2.5;
+    animation-duration: 2.5s ;
+}
+
+#ocho{
+    height: 40%;
+    width: 40%;
+    position:  relative;
+    z-index: 3;
+    animation-delay: 2.5;
+    animation-duration: 2.5s ;
+}
+
+#nueve{
+    height: 40%;
+    width: 40%;
+    position:  relative;
+    z-index: 3;
+    animation-delay: 2.5;
+    animation-duration: 2.5s ;
+}
+.text{
+	text-align: center;
+	margin-bottom: 2vh;
+}
+.pies{
+	background-color: #6D2D61;
+	height: 20vh;
+	margin-top: 2vh;
+}
+.foto{
+	
+	height: 100vh;
+	background-color:whitesmoke;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.yo{
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	
+}
+.icono1{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 30vh;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.diseño{
+	text-align: center;
+}
+
+.h1{
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color:#6D2D61;
+	font-weight:bold
+}
+.h2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
