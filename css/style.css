@@ -201,13 +201,12 @@ body{
 }
 .pies{
 	background-color: #6D2D61;
-	height: 20vh;
 	margin-top: 2vh;
 }
 .foto{
 	
 	height: 100vh;
-	background-color:whitesmoke;
+	background-color:white;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -244,3 +243,68 @@ body{
 	margin-right: auto;
 }
 
+.btn-group1 .button1 {
+	background-color: #6D2D61;
+	border-style: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: left;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+	width: 100%;
+	display: block;
+	margin-top: 8vh;
+  }
+  
+  .btn-group1 .button1:not(:last-child) {
+	border-bottom: none; /* Prevent double borders */
+  }
+  
+  .btn-group1 .button1:hover {
+	background-color:#2e1129;
+  }
+  input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+  }
+  
+  label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+  }
+  
+  input[type=submit] {
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  
+  .container {
+	border-radius: 5px;
+	background-color: #6D2D61;
+	padding: 20px;
+  }
+  
+  .col-25 {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+  }
+  
+  .col-75 {
+	float: left;
+	width: 75%;
+	margin-top: 6px;
+  }
